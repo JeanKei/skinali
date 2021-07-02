@@ -1,0 +1,39 @@
+.price
+    background-color: #f1f1f1
+    &-block
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        &__card
+            margin-bottom: 10px
+    &-card
+        position: relative  
+        background-color: #fff 
+        &:hover
+            .price-card__button
+                z-index: 99
+                margin-bottom: -80px
+        &__text
+            padding: 20px
+        &__title
+            margin: 0
+            font-size: 15px
+        &__cost
+            +bold
+        &__pricetag
+            display: flex
+            justify-content: space-between
+            // margin-bottom: 24px
+        &__button 
+            box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75)
+            position: absolute
+            bottom: 0
+            left: 0
+            width: 100%
+            text-align: center
+            height: 80px
+            background-color: #fff
+            z-index: -1
+
+
+

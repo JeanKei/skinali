@@ -78,6 +78,10 @@ img {
   font-family: 'Proxima Nova Semibold', sans-serif;
 }
 
+.button-o:hover {
+  cursor: pointer;
+}
+
 .button {
   text-decoration: none;
   border: none;
@@ -86,6 +90,10 @@ img {
   background-color: #507fe1;
   color: #fff;
   font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+.button:hover {
+  cursor: pointer;
 }
 
 .fitting-button {
@@ -98,6 +106,10 @@ img {
   border-radius: 0;
 }
 
+.fitting-button:hover {
+  cursor: pointer;
+}
+
 .add-button {
   padding: 10px;
   text-transform: uppercase;
@@ -108,10 +120,18 @@ img {
   border-radius: 0;
 }
 
+.add-button:hover {
+  cursor: pointer;
+}
+
 .like {
   border: none;
   background-color: #507fe1;
   border-radius: 0;
+}
+
+.like:hover {
+  cursor: pointer;
 }
 
 .bg-sec {
@@ -556,5 +576,69 @@ input[type='checkbox']:checked + label:before {
 .blog-card {
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
           box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.price {
+  background-color: #f1f1f1;
+}
+
+.price-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.price-block__card {
+  margin-bottom: 10px;
+}
+
+.price-card {
+  position: relative;
+  background-color: #fff;
+}
+
+.price-card:hover .price-card__button {
+  z-index: 99;
+  margin-bottom: -80px;
+}
+
+.price-card__text {
+  padding: 20px;
+}
+
+.price-card__title {
+  margin: 0;
+  font-size: 15px;
+}
+
+.price-card__cost {
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+.price-card__pricetag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.price-card__button {
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 80px;
+  background-color: #fff;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
