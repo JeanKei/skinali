@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEK,AAAD,YAAQ,CAAC;EACL,SAAS,EAAE,IAAI;CAAG",
+    "sources": [
+        "../sass/blocks/blog-list.sass"
+    ],
+    "names": [],
+    "file": "blog-list.css"
+}
